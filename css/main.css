@@ -1,0 +1,118 @@
+*{
+	/*border: 1px solid red;*/
+	background-color: #252525;
+	/*color: white;*/
+	font-family: 'Merriweather', serif;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#background{
+	/*background: url("../images/guywithball.jpeg");*/
+	/*width: 1000px;*/
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+/*body{
+	background-image: "../images/crystal-ball.jpg";
+}*/
+
+.attempt-circles{
+	width: 6em;
+	height: 6em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0px 0px 5px 0px;
+	border: 1px solid #D6D6DE;	
+      /*background: red;*/
+
+}
+/*.crystalball{
+	
+	width: 50%;
+	height: 75%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+}
+*/
+table{
+	color:#46BCDE;
+}
+button, input{
+	width: 200px;
+	height: 30px;
+	border-color: #D6D6DE;
+	font-size: .8em;
+	text-align: center;
+	color: #E94F64;
+}
+input{
+	margin-bottom: 2px;
+}
+::-webkit-input-placeholder, input, footer {
+   color: #E5C454
+}
+
+footer p {
+	text-align:right;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset = "UTF-8">
+		<link type = "text/css" rel = "stylesheet" href = "../css/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+		<title>Guessing-game</title>
+	</head>
+	<body>
+		<div class = "grid">
+			<header class = "row">
+			</header>
+			<div class = "row">
+ 				<div class = "col-3"> 
+ 					<br \>
+ 					<br \>
+					<table>
+						<tr>
+							<th colspan = "2"><h3><u>Prior Attempts</u></h3></th>
+						</tr>
+						<tr>
+							<th scope = "row">1.</th>
+							<td>Success/fail</td>
+						</tr>
+						<tr>
+							<th scope = "row">2. </th>
+							<td>Success/fail</td>
+						</tr>
+						<tr>
+							<th scope = "row">3. </th>
+							<td>Success/fail</td>
+						</tr>
+						<tr>
+							<th scope = "row">4. </th>
+							<td>Success/fail</td>
+						</tr>
+						<tr>
+							<th scope = "row">5. </th>
+							<td>Success/fail</td>
+						</tr>
+					</table>
+				</div>
+				<div class = "col-6" align = center>
+					<!-- <img class="crystalball" src ="../images/crystal-ball.jpg" alt="image for main background">  -->
+					<img class = "crystalball" src = "../images/guywithball.jpeg" alt = "image for main background" width =  450px height = 400px> 
+				</div>
+				<div class = "col-3">
+					<!-- place holder for output -->
+				</div>
+
+			</div>
+
+			<div class = "row">
+				<div class = "col-5" align = right>
+					<p class="attempt-circles">	</p>
+				</div>
+				<div class = "col-2" align = center>		
+					<p class="attempt-circles"> </p>
+				</div>
+				<div class = "col-5">
+					<p class="attempt-circles">	</p>	
+				</div>
+			</div>
+
+			<div class="row">
+				<form class = "col-4" action="backTrack">
+					<button type="submit" vertical-align = 'bottom'>Revert Last Guess</button>
+				</form>
+				<form class = "col-8" action = "guess-input">
+					<input class = "col-6" type='text' placeholder = "Enter your guess! (1 - 150)" required>
+					<button class = 'col-6' type="submit">Submit Guess </button>
+				</form>
+			</div>
+
+		</div>
+	</body>
+	<footer>
+		<div class = "grid">
+			<div class = "row">
+			<p class = "col-12">Kin Tsang</p>
+			</div>
+		</div>
+	</footer>
+</html>
