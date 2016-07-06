@@ -41,16 +41,16 @@
 					</table>
 				</div>
 				<div class = "col-6" align = center>
-					<!-- <img class="crystalball" src ="../images/crystal-ball.jpg" alt="image for main background">  -->
 					<img class = "crystalball" src = "../images/guywithball.jpeg" alt = "image for main background" width =  450px height = 400px> 
 				</div>
-				<div class = "col-3">
-					<!-- place holder for output -->
+				<div class = "col-3" id='sys_output'>
+					<p></p><!-- place holder for output -->
+					<p id="feedback">[make this center]</p>
 				</div>
 
 			</div>
 
-			<div class = "row">
+			<div class = "row attempt">
 				<div class = "col-5" align = right>
 					<p class="attempt-circles">	</p>
 				</div>
@@ -63,12 +63,12 @@
 			</div>
 
 			<div class="row">
-				<form class = "col-4" action="backTrack">
-					<button type="submit" vertical-align = 'bottom'>Revert Last Guess</button>
+				<form class = "col-4">
+					<button type="submit" vertical-align = 'bottom' id="revert">Revert Last Guess</button>
 				</form>
-				<form class = "col-8" action = "guess-input">
-					<input class = "col-6" type='text' placeholder = "Enter your guess! (1 - 150)" required>
-					<button class = 'col-6' type="submit">Submit Guess </button>
+				<form class = "col-8">
+					<input class = "col-6" type='text' placeholder = "Enter your guess! (1 - 100)" id ="guess" required>
+					<button class ='col-6 guessButton' id="submit">Submit Guess </button> 
 				</form>
 			</div>
 
@@ -81,4 +81,6 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+	<script src = "../js/guessingGame.js"> </script>
 </html>

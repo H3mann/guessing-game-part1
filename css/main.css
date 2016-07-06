@@ -71,9 +71,6 @@
 .col-12 {
     width: 100%;
 }
-/*body{
-	background-image: "../images/crystal-ball.jpg";
-}*/
 
 .attempt-circles{
 	width: 6em;
@@ -86,18 +83,39 @@
       /*background: red;*/
 
 }
-/*.crystalball{
-	
-	width: 50%;
-	height: 75%;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	
+
+.hidden{
+    display: none;
 }
-*/
+
+.success{
+    color: #52D273;
+    font-size: 1em;
+    text-align: center;
+    background-color: inherit;
+}
+.fail{
+    color: #E94F64;
+    font-size: 1em;
+    text-align: center;
+    background-color: inherit;
+}
+#feedback{
+    position: absolute;
+    bottom:0;
+    color: white;
+    text-align: center;
+}
+#sys_output{
+    position: relative;
+}
+.cold{
+    background-color: #46BCDE;
+}
 table{
 	color:#46BCDE;
 }
+
 button, input{
 	width: 200px;
 	height: 30px;
